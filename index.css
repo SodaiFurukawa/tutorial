@@ -24,7 +24,7 @@ p {
 }
 
 p:first-child {
-    color: #e74c3c;
+    color: #3498db;
     font-weight: bold;
     font-size: 1.4rem;
     letter-spacing: 0.05em;
