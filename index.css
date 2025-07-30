@@ -270,3 +270,36 @@ ul li {
     font-size: 1.1em;
     font-family: inherit;
 }
+
+/* === カフェ紹介ページ用レトロ風リストCSS === */
+ul.cafe-list {
+    list-style: square inside;
+    background: #fffbe6;
+    border: 2px solid #bfae7c;
+    box-shadow: 0 0 0 4px #bfae7c, 0 0 0 8px #fffbe6;
+    padding: 24px 18px;
+    margin: 32px 0 32px 0;
+    color: #bfae7c;
+    font-family: 'MS UI Gothic', 'Osaka', 'ＭＳ Ｐゴシック', monospace;
+    font-size: 1.08em;
+}
+
+ul.cafe-list li {
+    margin: 18px 0;
+    padding: 12px 0 12px 0;
+    border-bottom: 1px dashed #bfae7c;
+    background: transparent;
+    font-size: 1.08em;
+    line-height: 1.7;
+}
+
+ul.cafe-list li:last-child {
+    border-bottom: none;
+}
+
+ul.cafe-list strong {
+    color: #bfae7c;
+    font-size: 1.13em;
+    font-weight: bold;
+    letter-spacing: 0.04em;
+}
