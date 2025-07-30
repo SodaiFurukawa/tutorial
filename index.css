@@ -154,6 +154,7 @@ button[type="submit"]:hover {
     background: linear-gradient(90deg, #1746a0 60%, #217dbb 100%);
     box-shadow: 0 4px 16px #bcdffb55;
 }
+<<<<<<< HEAD
 
 /* === レトロなUI用CSS === */
 body {
@@ -270,3 +271,5 @@ ul li {
     font-size: 1.1em;
     font-family: inherit;
 }
+=======
+>>>>>>> 2606f6231aec72814d56965dcfeafcaf5f9a59f1
