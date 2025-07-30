@@ -83,3 +83,57 @@ ul li {
     margin: 8px 0;
     font-size: 1.1em;
 }
+
+form {
+    max-width: 350px;
+    margin: 32px auto;
+    padding: 24px 16px;
+    background: #f4f8fb;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(52,152,219,0.07);
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #217dbb;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 18px;
+    border: 1px solid #bcdffb;
+    border-radius: 6px;
+    font-size: 1em;
+    background: #fff;
+    box-sizing: border-box;
+    transition: border 0.2s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border: 1.5px solid #3498db;
+    outline: none;
+}
+
+button[type="submit"] {
+    width: 100%;
+    background: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 0;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-top: 8px;
+    transition: background 0.2s;
+}
+
+button[type="submit"]:hover {
+    background: #217dbb;
+}
